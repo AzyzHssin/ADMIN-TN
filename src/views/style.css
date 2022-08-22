@@ -1,0 +1,113 @@
+.user-row {
+    display: table;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 0px 30px 5px grey;
+    width: 59%;
+    height:15px;
+    border-radius: 13px;
+    box-shadow: inset;
+    background-color: rgb(235, 235, 235);
+    padding:5px;
+    margin:25px;
+   
+    
+    font-size: 16px;
+    
+    font-family: "Poppins", sans-serif;
+    
+  }
+  .user-row:hover{
+    background-color: #263148;
+    color: white;
+  }
+.user-avatar{
+    float: left;
+    margin-right:5px;
+    border-radius: 100px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 50px;
+    height: 50px;
+  }
+.user-name{
+    float: left;
+    margin-right: 20px;
+    margin-top: 14px;
+   
+}
+.user-email{
+    float: right;
+    margin-left: 70px;
+    margin-top: 14px;
+  
+}
+.insideMiddle{
+  margin-top: 30px ;
+}
+#profilesheader{
+    margin-left:80px;
+    
+    
+}
+
+.emailheader{
+    margin-left: -20px;
+   
+    
+     
+}
+.banButton{
+    width: 200px;
+   
+    
+    }
+
+.buttoncontainer{
+    margin-top: -85px;
+    margin-left: 720px;
+}
+.Complaincard{
+  margin-left: 380px;
+  width: 45%;
+    height: 700px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.userimageComplain{
+  width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    margin: 10px;
+}
+.usernameComplain{
+  font-size: 18px;
+    margin-left:85px;
+    margin-top: -55px;
+    font-weight: bold;
+}
+.dateComplain{
+  font-size: 12px;
+  margin-left:85px;
+ 
+}
+.Complainimage{
+border-radius: 5px;
+margin-left: 10px;
+width: 600px;
+
+min-width: 400px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.ComplainType{
+font-size: 15px;
+font-weight: bold;
+margin-left:10px ;
+}
+.Complaindescription{
+margin-left: 30px;
+margin-bottom: 10px;
+}
