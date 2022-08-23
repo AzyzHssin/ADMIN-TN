@@ -37,8 +37,9 @@ class ProfilesContainer  extends React.Component {
                       fullName:doc.data().fullName,
                       image:doc.data().image,
                       email:doc.data().email,
-                      phoneNumber:doc.data().phoneNumber,
+                      city:doc.data().city,
                       adress:doc.data().adress,
+                      Municipality:doc.data().Municipality,
                     
     
                   })

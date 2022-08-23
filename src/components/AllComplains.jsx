@@ -26,7 +26,7 @@ class AllComplains  extends React.Component {
                     type:doc.data().type,
                     userimage:doc.data().userimage,
                     username:doc.data().username,
-                    localisation:doc.data().localisation,
+                    location:doc.data().location,
                     description:doc.data().description,
                     createdAt:doc.data().createdAt,
   

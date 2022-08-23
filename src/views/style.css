@@ -190,3 +190,16 @@ text-decoration: none;
   margin-bottom:10px;
   width: 250px;
 }
+#localisation{
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 2px solid #0b2d6e;
+  padding: 5px;
+  font-size: x-large;
+  background-color: #263148;
+  color: white;
+}
+#localisation:hover{
+  background-color: #113f96;
+}

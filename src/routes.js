@@ -59,8 +59,8 @@ var routes = [
   }, */
 
   {
-    path: "/typography",
-    name: "Typography",
+    path: "/Suggestions",
+    name: "Suggestions",
     rtlName: "طباعة",
     icon: "tim-icons icon-bulb-63",
     component: Typography,

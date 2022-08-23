@@ -75,7 +75,15 @@ class UserProfile  extends React.Component {
                     <p className="description">{this.state.profile.email}</p>
                   </div>
                   <div className="card-description">
-                    Phone number :  {this.state.profile.phoneNumber}
+                    ID :  {this.state.profile.id}
+                    
+                  </div>
+                  <div className="card-description">
+                    City :  {this.state.profile.city}
+                    
+                  </div>
+                  <div className="card-description">
+                    Municipality :  {this.state.profile.Municipality}
                     
                   </div>
                   <div className="card-description">
