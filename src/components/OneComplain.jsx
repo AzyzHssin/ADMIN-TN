@@ -1,6 +1,7 @@
 import React from "react";
 
-
+import { Button } from "reactstrap";
+import {AiOutlineDelete} from "react-icons/ai"
 class OneComplain  extends React.Component {
     constructor(props) {
       super(props);    
@@ -11,6 +12,10 @@ class OneComplain  extends React.Component {
         return(    
 
 <div className="Complaincard">
+<button variant="outlined" color="error" id="deletecomplain" >
+ 
+  <AiOutlineDelete/>
+</button>
     <img src={this.props.oneComplain.userimage} className="userimageComplain"/>
     <div className="usernameComplain">{this.props.oneComplain.username}</div>
     <div className="dateComplain">{String(new Date(this.props.oneComplain.createdAt)).substring(0,25)}</div>

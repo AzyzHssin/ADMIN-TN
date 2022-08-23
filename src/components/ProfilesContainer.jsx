@@ -1,7 +1,7 @@
 import React from "react";
 import Oneprofile from "./Oneprofile";
 import {firebase,db} from '../firebase/firebase'
-
+import { doc, deleteDoc} from "firebase/firestore";
   
 
 class ProfilesContainer  extends React.Component {
@@ -15,13 +15,18 @@ class ProfilesContainer  extends React.Component {
     }
 
    
-    codeleteUser = (id) => {
-       var usersRef= firebase.firestore().collection("Complains");
-       usersRef.doc(id)
-          .delete()
-          .then(() => {})
-          .catch((e) => console.log(e));
-        alert("users has been banned")
+    codeleteUser =  (id) => {
+       
+       const docRef = doc(db, "Complains", id);
+
+       deleteDoc(docRef)
+       .then(() => {
+        alert("users has been banned successfully") ;
+       })
+       .catch(error => {
+           console.log(error);
+       })
+        
       };
 
     fecthProfiles=()=>{

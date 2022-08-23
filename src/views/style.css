@@ -74,6 +74,7 @@
     margin-top: 50px;
     border-radius: 10px;
     padding: 10px;
+    
 }
 
 .userimageComplain{
@@ -81,6 +82,7 @@
     height: 70px;
     border-radius: 70%;
     margin: 10px;
+    margin-top: -20px;
 }
 .usernameComplain{
   font-size: 18px;
@@ -102,18 +104,28 @@ min-width: 400px;
 margin-top: 15px;
 margin-bottom: 15px;
 }
+.suggestionimage{
+  border-radius: 5px;
+margin-left: 10px;
+width: 600px;
+
+min-width: 400px;
+margin-top: 45px;
+margin-bottom: 15px;
+}
 .ComplainType{
-font-size: 15px;
+font-size: 20px;
 font-weight: bold;
 margin-left:10px ;
 }
 .Complaindescription{
 margin-left: 30px;
 margin-bottom: 10px;
+font-size: 19px;
 }
 #bg-color{
   width: 100%;
-  height: 745px;
+  height: 835px;/* 745px; */
   background-image: url("../assets/img/bg.svg");
   background-size: cover;
   align-items: center;
@@ -121,6 +133,7 @@ margin-bottom: 10px;
   display: flex;
 }
 #container{
+  font-family: "Poppins", sans-serif;
   width: 40%;
   height: 60%;
   background-color: white;
@@ -133,6 +146,7 @@ margin-bottom: 10px;
   background-color: #095DFE;
 }
 #h1{
+  font-family: "Poppins", sans-serif;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -169,7 +183,7 @@ text-decoration: none;
   display: flex;
 }
 #login-btn{
-  
+  font-family: "Poppins", sans-serif;
   background-color: #095DFE;
   border-radius: 2px;
   border: none;
@@ -202,4 +216,14 @@ text-decoration: none;
 }
 #localisation:hover{
   background-color: #113f96;
+}
+#deletecomplain{
+  margin-left: 560px;
+  margin-bottom: -30px;
+  width: 50px;
+  border:2px solid black
+}
+#deletecomplain:hover{
+  border-color: red;
+  background-color: rgb(245, 219, 219);
 }

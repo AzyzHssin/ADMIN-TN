@@ -14,7 +14,7 @@ class AllSuggestions  extends React.Component {
         this.fetchSuggestion();
     }
     fetchSuggestion(){
-        const ref=firebase.firestore().collection('Suggestions') ;
+        const ref=firebase.firestore().collection('suggestions') ;
         ref.onSnapshot(querysnapshot=>{
             const list=[]
             querysnapshot.forEach(doc=>{
@@ -36,7 +36,7 @@ class AllSuggestions  extends React.Component {
   
             
             this.setState({Suggestion:list})
-            console.log(this.Suggestion)
+            console.log(this.state.Suggestion)
         
         })
     }

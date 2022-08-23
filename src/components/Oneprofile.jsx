@@ -12,7 +12,7 @@ const Oneprofile =(props)=>(
 <div className="user-email">{props.oneuser.email}</div>
 </div>
 <div className="buttoncontainer">
-<Button variant="outlined" color="error" className="banButton" onClick={()=>{props.codeleteUser(props.user.id);}}>
+<Button variant="outlined" color="error" className="banButton" onClick={()=>{props.codeleteUser(props.oneuser.id);}}>
   Ban profile
   <AiOutlineDelete/>
 </Button>
