@@ -1,5 +1,6 @@
 import React from "react";
 import {firebase,db} from '../firebase/firebase'
+import Suggestion from "../components/Suggestion"
 
   
 
@@ -44,7 +45,7 @@ class AllSuggestions  extends React.Component {
 
 <>
         {this.state.Suggestion.map(element=>{
-            return(<div > </div>)
+            return(<div ><Suggestion oneSuggestion={element}/> </div>)
              })
             }</>)
     }
