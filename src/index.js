@@ -2,7 +2,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-
+import Login from "./views/Login"
 import AdminLayout from "layouts/Admin/Admin.js";
 import RTLLayout from "layouts/RTL/RTL.js";
 
@@ -22,8 +22,10 @@ root.render(
       <BrowserRouter>
         <Switch>
           <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
-          <Route path="/rtl" render={(props) => <RTLLayout {...props} />} />
-          <Redirect from="/" to="/admin/dashboard" />
+          <Route path="/login" render={(props) => <Login/>} />
+          {/* <Route path="/rtl" render={(props) => <RTLLayout {...props} />} /> */}
+          {/* <Redirect from="/" to="/admin/dashboard" /> */}
+          <Redirect from="/" to="/login" />
         </Switch>
       </BrowserRouter>
     </BackgroundColorWrapper>

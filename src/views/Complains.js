@@ -7,7 +7,7 @@ import { Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 
 
 
-function Icons() {
+function Complains() {
   
 
     return (
@@ -28,4 +28,4 @@ function Icons() {
   );
 }
 
-export default Icons;
+export default Complains;
