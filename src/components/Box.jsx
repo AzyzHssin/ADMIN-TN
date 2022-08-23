@@ -11,7 +11,7 @@ class Box  extends React.Component {
         return(    
 
 <div >
-<p>hello i am box</p>
+
 
 
 </div>
